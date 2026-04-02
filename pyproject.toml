@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "polis-protocol"
+version = "0.1.0"
+description = "Protocol for Operating Legal Identity and Standing — civil infrastructure for the agentic economy"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Paul Raspey" }]
+requires-python = ">=3.10"
+keywords = [
+    "ai", "agents", "agentic", "identity", "reputation",
+    "civil-standing", "protocol", "uahp", "polis"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "cryptography>=41.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio",
+    "black",
+    "mypy",
+]
+
+[project.urls]
+Homepage = "https://github.com/PaulRaspey/POLIS"
+Repository = "https://github.com/PaulRaspey/POLIS"
