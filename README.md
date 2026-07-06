@@ -1,3 +1,5 @@
+Consolidated into github.com/PaulRaspey/uahp. Archived for history; tags remain browsable.
+
 # POLIS: Protocol for Operating Legal Identity and Standing
 
 **An agent that can act in the world must also be able to be held accountable in the world.**
